@@ -16,6 +16,25 @@ button {
   padding-bottom: 0%;
 }
 
-.mobile{
+.mobile {
   font-size: 2.4rem;
+}
+
+div {
+  min-height: 50vh;
+  font-size: 3.6rem;
+}
+div h2 {
+}
+
+@media (min-width: 500px) and (max-width: 1024px) {
+  body {
+    background: lightblue;
+  }
+  div {
+    font-size: calc(1.4rem+2vw);
+  }
+  html {
+    font-size: 50%;
+  }
 }
